@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/yc/dao/DBUtil.java=utf-8
+encoding//src/com/yc/dao/MyProperties.java=utf-8
+encoding//src/com/yc/utils/Encrypt.java=utf-8
+encoding//src/com/yc/utils/Mail.java=utf-8
+encoding//src/com/yc/utils/MoneyUtils.java=gbk
+encoding//src/com/yc/web/servlets/BaseServlet.java=UTF-8
+encoding//src/com/yc/web/utils/UploadUtil.java=utf-8
+encoding/<project>=utf-8

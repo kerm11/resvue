@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+  <!-- 这是我们用户登录的servlet的配置，一定要配置好，不配置的话，到时候是访问不到请求的 -->
+  <servlet>
+  	<servlet-name>resuserServlet</servlet-name>
+  	<servlet-class>com.yc.web.servlets.ResuserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resuserServlet</servlet-name>
+  	<url-pattern>/resuser.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CustOpServlet</servlet-name>
+  	<servlet-class>com.yc.web.servlets.CustOpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CustOpServlet</servlet-name>
+  	<url-pattern>/custOp.action</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>verifyCodeServlet</servlet-name>
+  	<servlet-class>com.yc.web.servlets.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>verifyCodeServlet</servlet-name>
+  	<url-pattern>/verifyCodeServlet</url-pattern>
+  </servlet-mapping>	
+  
+  <servlet>
+  	<servlet-name>resfoodServlet</servlet-name>
+  	<servlet-class>com.yc.web.servlets.ResfoodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resfoodServlet</servlet-name>
+  	<url-pattern>/resfood.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>resorderServlet</servlet-name>
+  	<servlet-class>com.yc.web.servlets.ResorderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>resorderServlet</servlet-name>
+  	<url-pattern>/resorder.action</url-pattern>
+  </servlet-mapping>
+
+  <display-name>res</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

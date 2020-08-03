@@ -1,0 +1,21 @@
+1. 本项目为一个小型的订餐小程序,技术如下:
+     前端: html,css,vue+axos,利用了  Vue的 MVVM的特点完成数据渲染. 
+     后端: mybatis+servlet,基于MVC架构完成
+     数据库: mysql
+     开发工具:  eclipse
+
+ 2. 功能:
+     登录,浏览商品，加入购物车,修改下订数量,修改外卖信息，退出等功能. 
+
+ 3. 数据库配置文件为  conf.xml，请在这个文件中修改数据库联接信息. 
+
+ 4. 请提前准备以下知识:
+     vue:  指令: v-if   v-for
+          事件:  @click  v-on:click
+           axos中的  get, post请求方式
+
+     vue的生命周期回调. 
+     URLSearchParams 对象封装请求参数
+
+
+
